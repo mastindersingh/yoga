@@ -21,7 +21,7 @@ export default ({ data }) => {
                     className="schedule__link-to-sheet"
                     target="_blank"
                     rel="noopener noreferrer"
-                    href="https://widget.fitogram.pro/green-yoga?fito-embedded=true&w=/list-view"
+                    href="https://widget.fitogram.pro/mastinder?fito-embedded=true&w=/list-view"
                 >
                     Link to schedule
                 </a>
@@ -32,7 +32,7 @@ export default ({ data }) => {
                     id="embeddedFrame"
                     name="embeddedFrame"
                     scrolling="yes"
-                    src="https://widget.fitogram.pro/green-yoga?fito-embedded=true&w=/list-view"
+                    src="https://widget.fitogram.pro/mastinder?fito-embedded=true&w=/list-view"
                     width="100%"
                     height="800px">
                 </iframe>

@@ -1,15 +1,15 @@
 {
     "header": [
         {
-            "text": "Yoga Schedule (P-berg & X-berg)",
+            "text": " Schedule (splunk)",
             "url": "/schedule-p-berg"
         }, 
         {
-            "text": "Green Talks - Coaching Schedule",
+            "text": "SRE Talks - Coaching Schedule",
             "url": "/schedule-x-berg"
         }, 
         {
-            "text": "Our Studios",
+            "text": "Our Classes",
             "url": "/studios"
         }
     ],
@@ -21,17 +21,17 @@
     ],
     "heroButtons": {
         "plantation": {
-            "text": "Plantation"
+            "text": "Splunk"
         },
         "yoga": {
-            "text": "Yoga / Meditation"
+            "text": "ELK"
         },
         "pranic": {
-            "text": "Pranic Healing"
+            "text": "Grafana"
         }
     },
     "heroText": {
-        "title": "Do yoga to plant trees",
-        "subTitle": "Pay as you wish yoga to fight climate change"
+        "title": "Do you like machine learning",
+        "subTitle": "Pay as you wish so classes remain online"
     }
 }

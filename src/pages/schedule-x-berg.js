@@ -21,14 +21,17 @@ export default ({ data }) => {
                     className="schedule__link-to-sheet"
                     target="_blank"
                     rel="noopener noreferrer"
-                    href="https://docs.google.com/spreadsheets/d/e/2PACX-1vTv1tUsiHfzydOB7otZgW-OwkndHfKMS7n5gfLD-iLqOxaDMeUuO-jZr1lzAt8XUJus1vF-0FRufd12/pubhtml?gid=354688609&single=true"
+                    href="https://docs.google.com/spreadsheets/d/107oL25dJy_6DjVotOamVlZfpuh5hnpOyJP4bfJiEqjo/edit#gid=186001220"
                 >
                     Link to schedule
                 </a>
                 <iframe
                     title="schedule-sheet"
                     className="schedule__timetable-sheet"
-                    src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTv1tUsiHfzydOB7otZgW-OwkndHfKMS7n5gfLD-iLqOxaDMeUuO-jZr1lzAt8XUJus1vF-0FRufd12/pubhtml?gid=354688609&amp;single=true&amp;widget=true&amp;headers=false"
+                    src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQyKppL0SI6Tgh1iNxdBjhlMpCk6xXaWZaIZTNVASQIpBs2S_zjUnE03Sbpj0lVEM9HQiR1AGo3qFPc/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"
+                    
+                    
+                    
                 ></iframe>
                 <div
                     className="schedule__classes-container"
@@ -36,6 +39,7 @@ export default ({ data }) => {
                 ></div>
             </React.Fragment>
         </Layout>
+        
     )
 }
 

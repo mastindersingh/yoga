@@ -6,7 +6,7 @@ export default (props) => {
     const data = useStaticQuery(
         graphql`
         query {
-          file(relativePath: { eq: "assets/logos/logo.jpg" }) {
+          file(relativePath: { eq: "assets/logos/splunklogo.png" }) {
             childImageSharp {
               fixed(width: 150) {
                 ...GatsbyImageSharpFixed

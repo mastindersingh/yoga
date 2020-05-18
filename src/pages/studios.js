@@ -68,10 +68,10 @@ export default ({ data }) => {
                     ></iframe>
                 </div>
             </div>
-            <h2 className="studios__title">Our space</h2>
+            <h2 className="studios__title">Our classes</h2>
             <div className="studios__images-wrapper">
                 <div className="studios__images-container">
-                    <h3 className="studios__sub-title">Prenzlauer Berg</h3>
+                    <h3 className="studios__sub-title">Bangalore</h3>
                     <div className="studios__images">
                         {imagesPBerg.map(image => {
                             return (
@@ -88,7 +88,7 @@ export default ({ data }) => {
                     </div>
                 </div>
                 <div className="studios__images-container">
-                    <h3 className="studios__sub-title">Kreuzberg</h3>
+                    <h3 className="studios__sub-title">Gurdaspur</h3>
                     <div className="studios__images">
                         {imagesXBerg.map(image => {
                             return (
