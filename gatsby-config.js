@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: "Green Yoga",
-    description: "Pay as you wish yoga classes in Berlin to fight climate change",
+    description: "Pay as you wish for  classes in Beangalore to fight climate change",
     language: "en"
   },
   plugins: [
