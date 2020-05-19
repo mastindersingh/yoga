@@ -40,7 +40,18 @@ export default () => {
                         }
                     }
                 }
-            }
+                jira: file(
+                    relativePath: { eq: "assets/icons/jira.png" }
+                ) {
+                    childImageSharp {
+                        fixed(width: 60) {
+                            ...GatsbyImageSharpFixed
+                        }
+                    }
+                }
+            
+        }
+
         `
     )
     const styleIcon = {
@@ -173,6 +184,25 @@ export default () => {
                                                             .fixed
                                                     }
                                                     alt="Instagram"
+                                                />
+                                            </a>
+                                        )}
+                                        {contact.socialMedia.jira && (
+                                            <a
+                                                href={
+                                                    contact.socialMedia
+                                                        .jira
+                                                }
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                <Img
+                                                    fixed={
+                                                        data.jira
+                                                            .childImageSharp
+                                                            .fixed
+                                                    }
+                                                    alt="Jira"
                                                 />
                                             </a>
                                         )}
