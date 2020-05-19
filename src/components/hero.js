@@ -11,7 +11,7 @@ export default () => {
         graphql`
             query {
                 image0: file(
-                    relativePath: { eq: "assets/hero/hero-img-studio-one.jpg" }
+                    relativePath: { eq: "assets/hero/sre1.jpg" }
                 ) {
                     childImageSharp {
                         fluid(maxWidth: 1000, maxHeight: 1000) {
@@ -20,7 +20,7 @@ export default () => {
                     }
                 }
                 image1: file(
-                    relativePath: { eq: "assets/hero/hero-img-planting.jpg" }
+                    relativePath: { eq: "assets/hero/sre2.jpg" }
                 ) {
                     childImageSharp {
                         fluid(maxWidth: 1000, maxHeight: 1000) {
@@ -29,7 +29,7 @@ export default () => {
                     }
                 }
                 image2: file(
-                    relativePath: { eq: "assets/hero/hero-img-studio-two.jpg" }
+                    relativePath: { eq: "assets/hero/sre3.png" }
                 ) {
                     childImageSharp {
                         fluid(maxWidth: 1200, maxHeight: 1000) {
