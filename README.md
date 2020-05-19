@@ -1,3 +1,3 @@
-## Green Yoga
+## Splunk SRE 
 
-Marketing website for a non-profit splunk
+Marketing website for a non-profit 
