@@ -29,7 +29,7 @@ export default () => {
                     }
                 }
                 image2: file(
-                    relativePath: { eq: "assets/hero/sre3.png" }
+                    relativePath: { eq: "assets/hero/sre3.jpg" }
                 ) {
                     childImageSharp {
                         fluid(maxWidth: 1200, maxHeight: 1000) {
