@@ -7,7 +7,7 @@ export default () => {
     const data = useStaticQuery(
         graphql`
         {        
-            markdownRemark(frontmatter: {id: {eq: "news"}}) {
+            markdownRemark(frontmatter: {id: {eq: "stock"}}) {
                 html
             }
         }`
