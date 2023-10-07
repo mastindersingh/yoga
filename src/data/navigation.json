@@ -21,13 +21,13 @@
     ],
     "heroButtons": {
         "plantation": {
-            "text": "Splunk"
+            "text": "Swimming"
         },
         "yoga": {
-            "text": "ELK"
+            "text": "Running"
         },
         "pranic": {
-            "text": "Grafana"
+            "text": "Yoga"
         }
     },
     "heroText": {
